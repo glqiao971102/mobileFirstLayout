@@ -1,0 +1,380 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Merienda','Roboto Slab', serif;
+    background-color: #FA7268;
+}
+
+
+p {
+
+    text-align: center;
+    
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a{
+
+    text-align: center;
+    display:block;
+    padding: 10px 15px;
+    background-color: white;
+    margin-bottom: 5px;
+    
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    
+}
+
+h2,
+h3 {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* Classes */
+
+
+.main-header{
+    background-color: #FA7268;
+    margin: auto;
+}
+
+.name{
+    font-size: 1.5em;
+    text-align:center;
+    padding-top: 25px;
+}
+
+
+.main-nav{
+    margin: auto;
+    
+    margin-bottom: 40px;
+}
+
+
+.user-response {
+    padding: 30px 50px;
+}
+
+.main-content {
+    
+    padding: 0px 50px 25px 50px;
+
+}
+
+.main-contact {
+    background-color: #FA7268;
+    padding: 1px 0;
+    border-top: 2px dashed grey;
+    border-bottom: 2px dashed grey;
+}
+
+.contact-info {
+    padding: 0 50px 0 50px;
+}
+
+.mobile-back-to-top {
+
+    background-color: #FA7268;
+    margin: auto;
+    padding-top: 0;
+    overflow: hidden;
+
+}
+
+.footer-name{
+
+    float: left;
+    padding-left: 20px;
+}
+
+.back-to-top {
+    
+    float: right;
+    padding-right: 20px;
+}
+
+.skills-list {
+    
+    text-align: center;
+    padding: 0px 50px 25px 50px;
+    color: white;
+
+}
+
+.each-skill{
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: #0F4C81;
+    padding: 25px 30px;
+
+}
+
+.skills {
+    
+    padding: 20px;
+    border-top: 2px dashed grey;
+    
+    }
+
+    .each-skill:hover {
+        background-color: grey;
+      }    
+/* Hide element in mobile */
+
+.destop-back-to-top {
+
+    display: none;
+    
+
+}
+
+/* Layout Containers  */
+
+/* ---- Float clearfix ---- */
+
+.clearfix {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* Media queries styles */
+
+@media (min-width: 768px) {
+
+ 
+
+    .container {
+        
+        
+        margin: 0 auto;
+    }
+
+
+    img {
+
+        width: 350px;
+
+    }
+
+    .main-nav {
+        text-align: center;
+       
+    }
+
+    li {
+        display: inline-block;
+        margin:  25px ;
+    }
+   
+    .main-nav a {
+
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: #FA7268;
+    }
+
+    .main-header {
+
+        overflow: hidden;
+
+    }
+    .profile-image {
+
+        float: right;
+        width: 250px;
+        margin: 25px;
+    }
+    
+    
+
+    .user-response {
+        
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    
+
+    .first-col {
+
+        width: 50%;
+        float: left;
+        
+        
+    }
+
+    .secondary-col {
+
+        width: 50%;
+        float: right;
+        
+        
+    }
+   
+
+    
+    .main-content{
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        letter-spacing: 1px;
+        height: 3em;      
+        margin-bottom: 50px;
+        
+        
+    }
+    
+    .main-contact {
+
+        width: 100%;
+
+    }
+
+    .destop-back-to-top {
+
+        display: contents;
+        float: left;
+        padding-right: 20px;
+    
+    }
+
+    .footer-name{
+        margin-top: 25px;
+        float: left;
+
+    }
+
+    .footer-menu{
+
+        float: right;
+        
+    }
+
+
+    /* hide the mobile back to top */
+    .mobile-back-to-top {
+
+        display: none;
+
+
+    }
+}
+
+.col{
+    
+    padding-right:1em;
+    padding-left: 1em;
+    margin-top: 2em;
+  }
+
+@media (min-width: 1024px) {
+
+    .portfolio {
+
+        padding-right: 20px;
+
+    }
+    
+
+    .container {
+		
+		margin: 0 auto;
+    
+	}
+
+    .main-nav {
+        
+        padding-top: 12px;
+        padding-left: 40px;
+        float: right;
+        
+        
+	}
+
+	.name{
+		float: left;
+    }
+    .main-nav li{
+
+        float: left;
+        margin: 27px 0 0 0 ;
+    }
+    
+
+    .profile-image {
+
+		width: 30%;
+        float: right;
+        padding: 10px;
+		
+	}
+
+    .user-response{
+        width: 65%;
+        float: left;
+        font-size: 1.2em;
+        
+    }
+
+    .name{
+
+        margin-left: 50px;
+    }
+    
+    .primary {
+
+        width: 33%;
+        float: left;
+        padding-left:25px;
+        
+      }
+        
+        .secondary {
+      
+        width: 33%;
+        float: left;
+        padding-left:25px;
+      }
+
+      .tertiary {
+      
+        width: 33%;
+        float: left;
+        padding-left:25px;
+      }
+
+      .main-content{
+
+        margin-bottom: 75px;
+
+      }
+
+      .profile-response {
+
+        clear: both;
+      }
+     
+    }
